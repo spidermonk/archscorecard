@@ -20,6 +20,7 @@ public class ProductsController {
 	
 	@RequestMapping(method=RequestMethod.GET, produces={"application/json"})
 	public List<Product> getAllActiveProducts() {
+		LOG.info("Getting all active products");
 		return this.productDb.getAllActive(true);
 	}
 
