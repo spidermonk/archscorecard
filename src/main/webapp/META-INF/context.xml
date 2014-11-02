@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" antiResourceLocking="true">
+	
+	<ResourceLink global="mongoDbUri" name="mongoDbUri" type="java.lang.String"/>
+	<ResourceLink global="mongoDbName" name="mongoDbName" type="java.lang.String"/>
+	
+</Context>
+
+	
